@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/images/advocado.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "./assets/images/apple.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "./assets/images/berry.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "./assets/images/cherry.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "./assets/images/festival.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "./assets/images/fruits.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "./assets/images/grapes.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "./assets/images/heart.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "./assets/images/ice.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "./assets/images/water.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "./assets/images/juice.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "./assets/images/lemon.jpeg",
+    "clicked": false
+  }
+]
