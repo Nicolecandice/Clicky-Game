@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import MatchCard from "./components/MatchCard";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import matches from "./matchcards.json";
+import Jumbotron from "./components/Jumbotron";
+import Footer from "./components/Footer";
 import "./App.css";
 
 let score = 0;
 let topScore = 0;
-let clickMessage = "Click on an image to earn points, but don't click on any more than once!";
+let clickMessage = "";
 class App extends Component {
     
     // Setting this.state.matches to the matches json array
@@ -97,21 +97,20 @@ class App extends Component {
 
     render() {
         return (
-            <Wrapper>
-            
-                <Title>Clicky Game!</Title>
-        
-                <h3 className="scoreSummary">
+            <div>
+            <Jumbotron />
+                <h2 className="scoreSummary">
                     {this.state.clickMessage}
-                </h3>
+                </h2>
                 
-                <h3 className="scoreSummary">
+                <h2 className="scoreSummary">
                     Score: {this.state.score} 
                     <br />
                     Top Score: {this.state.topScore} 
-                </h3>
-                <div className="container-fluid">
-<div className= "row matchCards">
+                </h2>
+              
+            <div className="container-fluid">
+ <div className= "row matchCards">
 
                 {this.state.matches.map(match => (
                     <MatchCard
@@ -123,9 +122,17 @@ class App extends Component {
                 ))}
                 </div>
                 </div>
-            </Wrapper>
+                <Footer />
+                </div>
+                
+                
+                
+                
+              
+               
         );
+
     }
-}
+};
 
 export default App;

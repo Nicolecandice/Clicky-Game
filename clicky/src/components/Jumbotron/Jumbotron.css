@@ -1,0 +1,20 @@
+.header{
+	background-color:green;
+	position: relative;
+	width: 100%;
+	z-index: -1;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 40px 0 0 0;
+	color: greenyellow; 
+}
+
+h2{
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
