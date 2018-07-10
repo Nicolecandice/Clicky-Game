@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "image": "./assets/images/advocado.jpeg",
+    "image": "./assets/images/avocado.jpg",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "./assets/images/apple.jpeg",
+    "image": "./assets/images/apple.jpg",
     "clicked": false
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "id": 4,
-    "image": "./assets/images/cherry.jpeg",
+    "image": "./assets/images/cherry.jpg",
     "clicked": false
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "id": 6,
-    "image": "./assets/images/fruits.jpeg",
+    "image": "./assets/images/fruits.jpg",
     "clicked": false
   },
   {
@@ -36,12 +36,12 @@
   },
   {
     "id": 8,
-    "image": "./assets/images/heart.jpeg",
+    "image": "./assets/images/heart.jpg",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "./assets/images/ice.jpeg",
+    "image": "./assets/images/ice.jpg",
     "clicked": false
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "id": 12,
-    "image": "./assets/images/lemon.jpeg",
+    "image": "./assets/images/lemon.jpg",
     "clicked": false
   }
 ]
